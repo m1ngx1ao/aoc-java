@@ -1,0 +1,14 @@
+{
+    "name": "Java",
+    "type": "java",
+    "request": "launch",
+    "stopOnEntry": true,
+    "preLaunchTask": "build",
+    "jdkPath": "${env:JAVA_HOME}/bin",
+    "sourcePaths": ["${workspaceRoot}/src"],
+    "cwd": "${workspaceRoot}",
+    "options": [
+      "-classpath",
+      "${workspaceRoot}/bin"      
+    ]
+  }
